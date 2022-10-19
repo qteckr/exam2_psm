@@ -10,26 +10,27 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="400dp"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="60dp"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_1"
+                android:id="@+id/btn_ingredientReport"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:text="재료보고"/>
 
             <Button
-                android:id="@+id/btn_2"
+                android:id="@+id/btn_calculateReport"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:text="정산보고"
                 android:layout_margin="5dp"
                 android:layout_weight="1"/>
 
@@ -37,28 +38,30 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="60dp"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_3"
+                android:id="@+id/btn_espreso"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:text="에스프레소"
                 android:layout_margin="5dp"
                 android:layout_weight="1"/>
 
             <Button
-                android:id="@+id/btn_4"
+                android:id="@+id/btn_latte"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:text="라떼"
                 android:layout_margin="5dp"
                 android:layout_weight="1"/>
 
             <Button
-                android:id="@+id/btn_5"
+                android:id="@+id/btn_americano"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:text="아메리카노"
                 android:layout_margin="5dp"
                 android:layout_weight="1"/>
         </LinearLayout>
@@ -67,7 +70,8 @@
         <TextView
             android:id="@+id/tv_label"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:gravity="center"
             android:text="라벨"
             android:textColor="@color/white"
